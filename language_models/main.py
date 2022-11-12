@@ -1,7 +1,7 @@
-from language_models.preprocessing.preprocessing import ReadSplitDataset, CustomTextDataset
-from language_models.preprocessing.vocab_builder import VocabBuilder
-from language_models.preprocessing.tokenization import Tokenizer
-from language_models.modelling.model import model
+from preprocessing.preprocessing import ReadSplitDataset, CustomTextDataset
+from preprocessing.vocab_builder import VocabBuilder
+from preprocessing.tokenization import Tokenizer
+from modelling.model import model
 from transformers import TrainingArguments, Trainer
 
 

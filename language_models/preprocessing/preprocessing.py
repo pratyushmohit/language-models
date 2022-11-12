@@ -7,8 +7,8 @@ from torch.utils.data import Dataset, DataLoader
 
 
 #custom imports
-from vocab_builder import VocabBuilder
-from tokenization import Tokenizer
+from .vocab_builder import VocabBuilder
+from .tokenization import Tokenizer
 
 
 class ReadSplitDataset():
